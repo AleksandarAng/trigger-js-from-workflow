@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: AleksandarAng/trigger-js-from-workflow@v1.1
+        uses: AleksandarAng/trigger-js-from-workflow@main
         with:
           who-to-greet: 'Hello AleksandarAng!'
       # Use the output from the `hello` step
